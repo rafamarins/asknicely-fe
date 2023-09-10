@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  web:
+    # Expose default Nuxt ports
+    ports:
+      - 4000:4000
+      - 24679:24679
